@@ -8,16 +8,14 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.qameta.allure.Step;
-import org.apache.http.HttpStatus;
-
 import static org.testng.Assert.*;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 
 public class AirLineTests extends AirLineApis {
+
 
     @Test(priority = 1)
     public void createAirLine() {
@@ -48,7 +46,7 @@ public class AirLineTests extends AirLineApis {
     @Test(priority = 4)
     public void createPostAirLineId() {
 
-        Map<String, Object> createAirLinePayload = Payloads.postCreateAirLineUsingMap("8855", "Sri Lankan Airways", "Sri Lanka", "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+        Map<String, Object> createAirLinePayload = Payloads.postCreateAirLineUsingMap("8844", "Sri Lankan Airways", "Sri Lanka", "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
                 "From Sri Lanka", "Katunayake, Sri Lanka", "www.srilankaairways.com", "1992");
 
         Response response = createAirLine(createAirLinePayload);

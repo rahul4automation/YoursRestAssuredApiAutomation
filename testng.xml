@@ -9,6 +9,7 @@
                     <include name="createAirLine"/>
                     <include name="createAirLineUsingMap"/>
                     <include name="createAirLineUsingData"/>
+                    <include name="createPostAirLineId"/>
                 </methods>
             </class>
         </classes>
