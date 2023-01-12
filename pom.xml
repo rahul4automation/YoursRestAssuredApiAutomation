@@ -18,6 +18,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <forkCount>4</forkCount>
                 </configuration>
             </plugin>
         </plugins>

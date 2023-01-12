@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/YoursRestAssured/YoursRestAssured/src/test/java/airLine/AirLineTests.java">
+          name="To Create AirLine">
         <classes>
             <class name="airLine.AirLineTests">
                 <methods>
