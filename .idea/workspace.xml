@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2684215d-c057-47ec-9012-ec2304c9c92a" name="Changes" comment="To run test cases using TestNG.xml">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/airLine/AirLineTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/airLine/AirLineTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KDFX2PVFzOZfKAthZw9Yrtm1TR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/YoursRestAssured/YoursRestAssured/src/test/resources/development",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\YoursRestAssured\YoursRestAssured\src\test\resources\development" />
+      <recent name="C:\YoursRestAssured\YoursRestAssured\src\test\resources" />
+      <recent name="C:\YoursRestAssured\YoursRestAssured\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\YoursRestAssured\YoursRestAssured\src\test\resources\airLines" />
+      <recent name="C:\YoursRestAssured\YoursRestAssured\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AirLineTests.createAirLine">
+    <configuration name="AirLineAPIAutomation" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AirLineTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YoursRestAssuredApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="airLine" />
+      <option name="MAIN_CLASS_NAME" value="airLine.AirLineTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirLineTests.createAirLine" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YoursRestAssuredApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="airLine" />
+      <option name="MAIN_CLASS_NAME" value="airLine.AirLineTests" />
+      <option name="METHOD_NAME" value="createAirLine" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirLineTests.createAirLineUsingData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YoursRestAssuredApiAutomation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="airLine" />
+      <option name="MAIN_CLASS_NAME" value="airLine.AirLineTests" />
+      <option name="METHOD_NAME" value="createAirLineUsingData" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirLineTests.createAirLineUsingDataProperty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YoursRestAssuredApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="airLine" />
+      <option name="MAIN_CLASS_NAME" value="airLine.AirLineTests" />
+      <option name="METHOD_NAME" value="createAirLineUsingDataProperty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirLineTests.createAirLineUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YoursRestAssuredApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="airLine" />
+      <option name="MAIN_CLASS_NAME" value="airLine.AirLineTests" />
+      <option name="METHOD_NAME" value="createAirLineUsingMap" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.AirLineAPIAutomation" />
+      <item itemvalue="TestNG.AirLineTests" />
+      <item itemvalue="TestNG.AirLineTests.createAirLine" />
+      <item itemvalue="TestNG.AirLineTests.createAirLineUsingData" />
+      <item itemvalue="TestNG.AirLineTests.createAirLineUsingDataProperty" />
+      <item itemvalue="TestNG.AirLineTests.createAirLineUsingMap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AirLineTests.createAirLine" />
+        <item itemvalue="TestNG.AirLineTests.createAirLineUsingData" />
+        <item itemvalue="TestNG.AirLineTests.createAirLineUsingDataProperty" />
+        <item itemvalue="TestNG.AirLineTests.createAirLineUsingMap" />
+        <item itemvalue="TestNG.AirLineTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2684215d-c057-47ec-9012-ec2304c9c92a" name="Changes" comment="" />
+      <created>1673501284796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673501284796</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added dependencies for Api Automation framework">
+      <created>1673503790871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673503790871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Address comment">
+      <created>1673504103645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673504103645</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Framework and added test cases to create AirLine">
+      <created>1673515254782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673515254782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Framework and added test cases to create AirLine">
+      <created>1673515582362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673515582362</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added test cases for Api Automation">
+      <created>1673519077767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673519077767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Read">
+      <created>1673527164713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673527164713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="To run test cases using TestNG.xml">
+      <created>1673529765044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673529765044</updated>
+    </task>
+    <task id="LOCAL-00008" summary="To run test cases using TestNG.xml">
+      <created>1673531473219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673531473219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added dependencies for Api Automation framework" />
+    <MESSAGE value="Address comment" />
+    <MESSAGE value="Framework and added test cases to create AirLine" />
+    <MESSAGE value="Added test cases for Api Automation" />
+    <MESSAGE value="Read" />
+    <MESSAGE value="To run test cases using TestNG.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="To run test cases using TestNG.xml" />
+  </component>
+</project>
