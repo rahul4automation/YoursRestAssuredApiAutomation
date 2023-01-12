@@ -13,7 +13,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restAssuredVersion>5.3.0</restAssuredVersion>
-        <testNgVersion>7.7.1</testNgVersion>
+        <testNgVersion>6.11</testNgVersion>
         <gsonVersion>2.10.1</gsonVersion>
         <jacksonDataBinedVersion>2.14.1</jacksonDataBinedVersion>
         <extentReportsVersion>5.0.9</extentReportsVersion>
@@ -70,7 +70,11 @@
             <artifactId>commons-lang3</artifactId>
             <version>${apacheCommonLangVersion}</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
