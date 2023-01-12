@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/YoursRestAssured/YoursRestAssured/src/test/java/airLine/AirLineTests.java">
+        <classes>
+            <class name="airLine.AirLineTests">
+                <methods>
+                    <include name="createAirLine"/>
+                    <include name="createAirLineUsingMap"/>
+                    <include name="createAirLineUsingData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
