@@ -36,6 +36,7 @@
         <javaFakerVersion>1.0.2</javaFakerVersion>
         <lombokVersion>1.18.24</lombokVersion>
         <apacheCommonLangVersion>3.12.0</apacheCommonLangVersion>
+        <allureTestNG>2.20.1</allureTestNG>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
@@ -95,7 +96,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.20.1</version>
+            <version>${allureTestNG}</version>
         </dependency>
     </dependencies>
 </project>
