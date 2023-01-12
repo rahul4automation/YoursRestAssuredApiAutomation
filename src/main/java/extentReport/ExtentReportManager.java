@@ -21,7 +21,7 @@ public class ExtentReportManager {
         extentSparkReporter.config().setEncoding("utf-8");
 
 
-        ExtentReports extentReports = new ExtentReports();
+        extentReports = new ExtentReports();
         extentReports.attachReporter(extentSparkReporter);
         return extentReports;
     }
