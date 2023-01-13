@@ -46,7 +46,7 @@ public class GetAirLineTests extends AirLineApis {
         int resp = response.getBody().jsonPath().get("id");
         System.out.println(resp);
         int AirLineTicketId = response.getBody().jsonPath().get("id");
-        validateOAirLineTicketId(createTaskIdrResponse.getBody().jsonPath().get("id"), AirLineTicketId);
+        validateOAirLineTicketId(ticketId, AirLineTicketId);
 
     }
 
