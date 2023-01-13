@@ -1,7 +1,6 @@
-package common;
+package airLineAPI;
 
-import airLine.Payloads;
-import airLineAPI.AirLineService;
+import common.APIEndPoints;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

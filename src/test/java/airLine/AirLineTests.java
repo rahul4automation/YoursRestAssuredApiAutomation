@@ -1,8 +1,8 @@
 package airLine;
 
+import airLineAPI.AirLineApis;
 import airLineAPI.AirLineService;
 import common.APIEndPoints;
-import common.AirLineApis;
 import common.JsonUtils;
 import io.restassured.response.Response;
 import org.testng.Assert;
