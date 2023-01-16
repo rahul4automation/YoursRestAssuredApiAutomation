@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="extentReport.SetupITest"></listener>
+    </listeners>
     <test verbose="2" preserve-order="true"
           name="To Create AirLine">
         <classes>
-            <class name="airLine.AirLineTests">
-                <methods>
-                    <include name="createAirLine"/>
-                    <include name="createAirLineUsingMap"/>
-                    <include name="createAirLineUsingData"/>
-                    <include name="createPostAirLineId"/>
-                </methods>
-            </class>
+            <class name="airLine.AirLineTests"/>
+            <class name="airLine.GetAirLineTests"/>
         </classes>
     </test>
 </suite>

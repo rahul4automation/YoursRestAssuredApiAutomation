@@ -4,7 +4,6 @@ import common.APIEndPoints;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import java.util.Map;
 
 public class PassengerServiceApi {
