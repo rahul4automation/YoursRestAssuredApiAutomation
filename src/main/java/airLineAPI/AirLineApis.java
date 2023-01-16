@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AirLineApis extends LogReport {
+public class AirLineApis extends AirLineService {
 
     public Response createAirLine(Map<String, Object> jsonRequest) {
         String endPoint = (String) Base.dataFromJsonFile.get("CreateAirLineApiEndPoint");

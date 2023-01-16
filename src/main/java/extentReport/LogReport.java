@@ -6,18 +6,21 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.SpecificationQuerier;
 
 public class LogReport {
-    private static void loginReport(RequestSpecification requestSpecification) {
+    public static void loginReport(RequestSpecification requestSpecification) {
         QueryableRequestSpecification queryableRequestSpecification = SpecificationQuerier.query(requestSpecification);
-        ExtentReportManager.logInfoDetails("EndPoint is : " +queryableRequestSpecification.getBaseUri());
-        ExtentReportManager.logInfoDetails("Methods is : " +queryableRequestSpecification.getMethod());
-        ExtentReportManager.logInfoDetails("Headers are : " +queryableRequestSpecification.getHeaders().asList().toString());
-        ExtentReportManager.logInfoDetails("Request body is : " +queryableRequestSpecification.getBody());
+        ExtentReportManager.logInfoDetails("EndPoint is : " + queryableRequestSpecification.getBaseUri());
+        ExtentReportManager.logInfoDetails("Methods is : " + queryableRequestSpecification.getMethod());
+        ExtentReportManager.logInfoDetails("Headers are : ");
+        ExtentReportManager.logHeaders(queryableRequestSpecification.getHeaders().asList());
+        ExtentReportManager.logInfoDetails("Request body is : ");
+        ExtentReportManager.logJsonDetails("Request body is : " + queryableRequestSpecification.getBody());
     }
 
-    public static void printResponseLogInReport(Response response){
-        ExtentReportManager.logInfoDetails("Response status is : "  +response.getStatusCode());
-        ExtentReportManager.logInfoDetails("Response header are : " +response.getHeaders().asList().toString());
-        ExtentReportManager.logInfoDetails("Response body  is : " +response.getStatusCode());
-
+    public static void printResponseLogInReport(Response response) {
+        ExtentReportManager.logInfoDetails("Response status is : " + response.getStatusCode());
+        ExtentReportManager.logInfoDetails("Response header are : ");
+        ExtentReportManager.logHeaders(response.getHeaders().asList());
+        ExtentReportManager.logInfoDetails("Response body  is : ");
+        ExtentReportManager.logJsonDetails(response.getBody().prettyPrint());
     }
 }
