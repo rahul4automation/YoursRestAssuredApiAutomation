@@ -4,11 +4,15 @@ import common.APIEndPoints;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.json.JSONObject;
+
 import java.util.Map;
+
+import static extentReport.LogReport.printResponseLogInReport;
 
 public class PassengerServiceApi {
 
-    public static Response createAirLineTicketId(Map<String, Object> jsonRequest, Map<String, String> headers) {
+    public static Response createAirLineTicketId(String jsonRequest, Map<String, String> headers) {
         Response createPassengerResponse = RestAssured.given().contentType(ContentType.JSON).headers(headers).body(jsonRequest).post(APIEndPoints.METHOD_POST_CREATE_PASSENGER).andReturn().then().log().all().extract().response();
         return createPassengerResponse;
     }
