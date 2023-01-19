@@ -5,6 +5,9 @@ import com.aventstack.extentreports.ExtentTest;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import java.util.regex.*;
+
+import java.util.Arrays;
 
 public class SetupITest implements ITestListener {
 
@@ -25,7 +28,16 @@ public class SetupITest implements ITestListener {
     }
 
     @Override
-    public void onTestFailure(ITestResult iTestResult) {
+    public void onTestFailure(ITestResult result) {
+        ExtentReportManager.logFailureDetails(result.getThrowable().getMessage());
+        String stackTrace= Arrays.toString(result.getThrowable().getStackTrace());
+        stackTrace=stackTrace.replaceAll(",", "<br>");
+        String formmatedTrace="<details>\n" +
+                " <summary>click Here To see Exception logs</summary>\n"  +
+                "   "+stackTrace+"\n" +
+                "</details>\n";
+        ExtentReportManager.logExceptionDetails(formmatedTrace);
+
 
     }
 
@@ -52,6 +64,7 @@ public class SetupITest implements ITestListener {
 
         if (extentReports != null)
             extentReports.flush();
-
     }
+
+
 }
